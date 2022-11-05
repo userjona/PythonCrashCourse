@@ -1,29 +1,29 @@
 # 7.8
-# sandwich_orders = ['krabby patty',  'egg', 'roast beef']
-# finished_sandwiches = []
+ sandwich_orders = ['krabby patty',  'egg', 'roast beef']
+ finished_sandwiches = []
 
-# while sandwich_orders:
-#     current_sandwich = sandwich_orders.pop()
-#     print(f"Im making your {current_sandwich} sandwich")
-#     finished_sandwiches.append(current_sandwich)
+ while sandwich_orders:
+     current_sandwich = sandwich_orders.pop()
+     print(f"Im making your {current_sandwich} sandwich")
+     finished_sandwiches.append(current_sandwich)
 
-# print(f"\nThis is yours sandwiches")
-# for item in finished_sandwiches:
-#     print("\t" + item.title())
+ print(f"\nThis is yours sandwiches")
+ for item in finished_sandwiches:
+     print("\t" + item.title())
 
 # 7.9
-# sandwich_orders = ['krabby patty',  'egg', 'roast beef']
-# print("Your sandwich must be without pastrami.")
-# i = 0
-# while i < 3:
-#     sandwich_orders.append('pastrami')
-#     i+=1
-# print(sandwich_orders)
+ sandwich_orders = ['krabby patty',  'egg', 'roast beef']
+ print("Your sandwich must be without pastrami.")
+ i = 0
+ while i < 3:
+     sandwich_orders.append('pastrami')
+     i+=1
+ print(sandwich_orders)
 
-# while 'pastrami' in sandwich_orders:
-#     sandwich_orders.remove('pastrami')
+ while 'pastrami' in sandwich_orders:
+     sandwich_orders.remove('pastrami')
 
-# print(sandwich_orders)
+ print(sandwich_orders)
 
 # 7.10
 user_prompt = "\nWhat is your username? "
@@ -47,12 +47,3 @@ print("#### POLL ####")
 for k,v in dreams.items():
     print(f"User: {k}")
     print(f"Dream: {v}\n")
-
-    
-
-
-
-        
-        
-        
-

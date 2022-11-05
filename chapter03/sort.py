@@ -18,7 +18,7 @@ waifus = ['Emilia','Lain','Filo-chan']
 
 print(len(waifus))
 
-#3.10
+# 3.10
 random = ['Iwakura','Fiora','Draven','Love','Again','Coffee','Tea','Light']
 print(random)  random list without sort 
 random.sort()  permanent sort

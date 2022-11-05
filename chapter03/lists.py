@@ -1,29 +1,29 @@
 #3.4
 waifus = ['Emilia','Lain','Filo-chan']
-# print(f'Hello, {waifus[0]}, do you want to have a dinner with me?')
-# print(f'Hello, {waifus[1]}, do you want to have a dinner with me?')
-# print(f'Hello, {waifus[2]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[0]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[1]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[2]}, do you want to have a dinner with me?')
 
 # 3.5
-# print(f'{waifus[2]} cannot attend.')
+ print(f'{waifus[2]} cannot attend.')
 del waifus[2]
 waifus.append('Rei Ayanami')
 
-# print(f'Hello, {waifus[0]}, do you want to have a dinner with me?')
-# print(f'Hello, {waifus[1]}, do you want to have a dinner with me?')
-# print(f'Hello, {waifus[2]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[0]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[1]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[2]}, do you want to have a dinner with me?')
 
 # 3.6
 waifus.insert(0, 'Chika Fujiwara')
 waifus.insert(2, 'Kaguya Shinomiya')
 waifus.append('Rem')
 
-# print(f'Hello, {waifus[0]}, do you want to have a dinner with me?')
-# print(f'Hello, {waifus[1]}, do you want to have a dinner with me?')
-# print(f'Hello, {waifus[2]}, do you want to have a dinner with me?')
-# print(f'Hello, {waifus[3]}, do you want to have a dinner with me?')
-# print(f'Hello, {waifus[4]}, do you want to have a dinner with me?')
-# print(f'Hello, {waifus[5]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[0]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[1]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[2]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[3]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[4]}, do you want to have a dinner with me?')
+ print(f'Hello, {waifus[5]}, do you want to have a dinner with me?')
 
 # 3.7
 print("I can only invite two people, unfortunately")
